@@ -1,0 +1,10 @@
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\bin\Debug\netstandard2.0\SmartVault.CodeGeneration.deps.json
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\bin\Debug\netstandard2.0\SmartVault.CodeGeneration.dll
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\bin\Debug\netstandard2.0\SmartVault.CodeGeneration.pdb
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\obj\Debug\netstandard2.0\SmartVault.CodeGeneration.csproj.AssemblyReference.cache
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\obj\Debug\netstandard2.0\SmartVault.CodeGeneration.GeneratedMSBuildEditorConfig.editorconfig
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\obj\Debug\netstandard2.0\SmartVault.CodeGeneration.AssemblyInfoInputs.cache
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\obj\Debug\netstandard2.0\SmartVault.CodeGeneration.AssemblyInfo.cs
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\obj\Debug\netstandard2.0\SmartVault.CodeGeneration.csproj.CoreCompileInputs.cache
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\obj\Debug\netstandard2.0\SmartVault.CodeGeneration.dll
+F:\Estudo\SmartVaultHardChallenge\SmartVault.CodeGeneration\obj\Debug\netstandard2.0\SmartVault.CodeGeneration.pdb
