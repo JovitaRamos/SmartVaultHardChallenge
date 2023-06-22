@@ -5,10 +5,10 @@
 		<property name="Name" type="string" />
 	</propertyGroup>
 	<script>
-    CREATE TABLE Account (
-    Id INTEGER PRIMARY KEY,
+		CREATE TABLE Account (
+			Id INTEGER PRIMARY KEY,
     Name TEXT,
     CreatedOn DATETIME DEFAULT CURRENT_TIMESTAMP
-    );
-  </script>
+		);
+	</script>
 </businessObject>

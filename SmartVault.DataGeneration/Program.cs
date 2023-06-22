@@ -64,9 +64,9 @@ namespace SmartVault.DataGeneration
                         command.Parameters.Add("@FilePath", DbType.String);
                         command.Parameters.Add("@Length", DbType.Int32);
 
-                        for (int i = 0; i < 100; i++)
-                        {
-                            randomDayIterator.MoveNext();
+                for (int i = 0; i < 100; i++)
+                {
+                    randomDayIterator.MoveNext();
 
                             command.CommandText = "INSERT INTO User (Id, FirstName, LastName, DateOfBirth, AccountId, Username, Password) VALUES(@Id, @FirstName, @LastName, @DateOfBirth, @AccountId, @Username, @Password);";
                             command.Parameters["@Id"].Value = i;
@@ -83,8 +83,8 @@ namespace SmartVault.DataGeneration
                             command.Parameters["@AccountName"].Value = $"Account{i}";
                             command.ExecuteNonQuery();
 
-                            for (int d = 0; d < 10000; d++, documentNumber++)
-                            {
+                    for (int d = 0; d < 10000; d++, documentNumber++)
+                    {
                                 command.CommandText = "INSERT INTO Document (Id, Name, FilePath, Length, AccountId)  VALUES(@DocumentId, @DocumentName, @FilePath, @Length, @DocumentAccountId);";
                                 command.Parameters["@DocumentId"].Value = documentNumber;
                                 command.Parameters["@DocumentName"].Value = $"Document{i}-{d}.txt";
@@ -97,6 +97,7 @@ namespace SmartVault.DataGeneration
                         transaction.Commit();
                     }
                 }
+
                 var accountData = connection.Query("SELECT COUNT(*) FROM Account;");
                 Console.WriteLine($"AccountCount: {JsonConvert.SerializeObject(accountData)}");
                 var documentData = connection.Query("SELECT COUNT(*) FROM Document;");

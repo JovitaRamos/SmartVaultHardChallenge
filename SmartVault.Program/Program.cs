@@ -42,7 +42,7 @@ namespace SmartVault.Program
                 GetAllFileSizes(connection);
 
                 connection.Close();
-            }
+        }
         }
 
         private static void GetAllFileSizes(SQLiteConnection connection)

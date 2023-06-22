@@ -3,9 +3,6 @@
     "Profile 1": {
       "commandName": "DebugRoslynComponent",
       "targetProject": "..\\SmartVault.Program\\SmartVault.Program.csproj"
-    },
-    "Perfil 1": {
-      "commandName": "Executable"
     }
   }
 }
